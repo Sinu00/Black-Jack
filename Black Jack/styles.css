@@ -1,0 +1,50 @@
+body{
+    background-color: #191414;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-size: cover;
+    
+}
+.container{
+    max-width: 30%;
+    min-width: 400px;
+    display: block;
+    margin: 130px auto; ;
+    background-color: #1DB954;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 0 10px 0;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    color: #191414;
+    border: 1px solid #191414;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+
+button:hover{
+    box-shadow: 0 0 10px #191414;
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+#result{
+    color: #191414;
+    font-weight: bolder;
+}
+
+h4{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
